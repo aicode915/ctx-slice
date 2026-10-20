@@ -1,0 +1,41 @@
+{
+  "name": "ctx-slice",
+  "version": "0.1.0",
+  "description": "Smart Code Slicer for LLMs. Pack dependency trees, not whole repositories.",
+  "author": "OpenSource Contributor",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "ctx-slice": "./dist/cli.js"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "node --test test/*.test.js",
+    "lint": "tsc --noEmit"
+  },
+  "keywords": [
+    "llm",
+    "context",
+    "dependency-graph",
+    "prompt-engineering",
+    "ast",
+    "repomix",
+    "claude",
+    "cursor",
+    "code-slicer"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "picocolors": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.5.0"
+  }
+}

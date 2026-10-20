@@ -166,7 +166,7 @@ console.log(result.formattedOutput);  // Formatted markdown string
 Contributions are warmly welcome! Please check out our [Contributing Guidelines](./CONTRIBUTING.md) to get started.
 
 ```bash
-git clone https://github.com/your-username/ctx-slice.git
+git clone https://github.com/aicode915/ctx-slice.git
 cd ctx-slice
 npm install
 npm test

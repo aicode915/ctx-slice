@@ -6,7 +6,7 @@ Thank you for considering contributing to `ctx-slice`!
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/ctx-slice.git
+   git clone https://github.com/aicode915/ctx-slice.git
    cd ctx-slice
    ```
 

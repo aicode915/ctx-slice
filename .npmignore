@@ -1,0 +1,6 @@
+src
+test
+.github
+*.log
+.DS_Store
+tsconfig.json

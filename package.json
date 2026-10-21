@@ -1,8 +1,8 @@
 {
   "name": "ctx-slice",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Smart Code Slicer for LLMs. Pack dependency trees, not whole repositories.",
-  "author": "OpenSource Contributor",
+  "author": "aicode915",
   "license": "MIT",
   "type": "module",
   "bin": {
@@ -32,10 +32,10 @@
   },
   "dependencies": {
     "commander": "^12.1.0",
-    "picocolors": "^1.1.0"
+    "picocolors": "^1.1.0",
+    "typescript": "^5.5.0"
   },
   "devDependencies": {
-    "@types/node": "^20.14.0",
-    "typescript": "^5.5.0"
+    "@types/node": "^20.14.0"
   }
 }

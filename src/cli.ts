@@ -13,7 +13,7 @@ const program = new Command();
 program
   .name('ctx-slice')
   .description('Smart Code Slicer for LLMs. Pack dependency trees, not whole repositories.')
-  .version('0.1.0')
+  .version('0.1.1')
   .argument('<entry-files...>', 'One or more entry file paths to trace (e.g. src/index.ts)')
   .option('-d, --depth <number>', 'Maximum dependency traversal depth', '5')
   .option('-s, --skeleton-depth <number>', 'Depth threshold to convert dependencies to AST skeletons', '2')
@@ -92,7 +92,7 @@ function printBanner() {
     pc.magenta(
       `\n  ╔═╗╔╦╗═╗ ╦  ╔═╗╦  ╦╔═╗╔═╗\n  ║   ║ ╔╩╦╝  ╚═╗║  ║║  ╠═╝\n  ╚═╝ ╩ ╩ ╚═  ╚═╝╩═╝╩╚═╝╩═╝`
     ) +
-    pc.gray('  v0.1.0\n') +
+    pc.gray('  v0.1.1\n') +
     pc.dim('  Smart Code Slicer for LLMs • Pack trees, not repos.\n')
   );
 }
